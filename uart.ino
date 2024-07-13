@@ -1,8 +1,8 @@
 #include "HardwareSerial.h"
 
-HardwareSerial serial0(0);
-HardwareSerial serial1(1);
-HardwareSerial serial2(2);
+HardwareSerial serial0(0); // also aliased as global Serial and Serial0
+HardwareSerial serial1(1); // also aliased as global Serial1
+HardwareSerial serial2(2); // also aliased as global Serial2
 
 void setup() {
   // Note that for serial1, we don't used the default pins
